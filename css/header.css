@@ -1,0 +1,57 @@
+
+
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+   
+}
+.search-img {
+    height: 25px;
+    position: absolute;
+    left: 15px;
+        
+}
+
+.form {
+
+}
+
+.form > input {
+    width: 350px;
+    padding:  10px 20px 10px 60px;
+    font-size:  20px;
+    border: none;
+    height: 50px;
+    background-color:  #efeded;
+    border-radius:  20px;
+    line-height: 20px;
+    
+}
+
+.user-block {
+    display: flex;
+    align-items:  center;
+    gap: 30px;
+    position: relative;
+}
+
+.bell {
+    height: 30px;
+    color: black;
+}
+
+.bubble {
+    height: 100px;
+    width: 100px;
+    color: orange;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    right: 3px;
+}
+.avatar {
+    height: 50px;
+    border-radius: 50%;
+}
