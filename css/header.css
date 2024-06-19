@@ -10,8 +10,7 @@
 .search-img {
     height: 25px;
     position: absolute;
-    left: 15px;
-        
+    left: 15px;        
 }
 
 .form {
@@ -19,15 +18,14 @@
 }
 
 .form > input {
-    width: 350px;
+    width: 365px;
     padding:  10px 20px 10px 60px;
     font-size:  20px;
     border: none;
     height: 50px;
     background-color:  #efeded;
     border-radius:  20px;
-    line-height: 20px;
-    
+    line-height: 20px;  
 }
 
 .user-block {
@@ -38,18 +36,18 @@
 }
 
 .bell {
-    height: 30px;
+    height: 35px;
     color: black;
 }
-
 .bubble {
-    height: 100px;
-    width: 100px;
-    color: orange;
+    height: 8px;
+    width: 8px;
+    background-color: orange;
     border-radius: 50%;
     position: absolute;
-    top: 5px;
-    right: 3px;
+    top: 16px;
+    left: 18px;
+    
 }
 .avatar {
     height: 50px;
