@@ -2,10 +2,10 @@
 
 .main-header {
     display: flex;
-    align-items: center;
+    grid-area: header;
     justify-content: space-between;
     padding: 20px;
-   
+
 }
 .search-img {
     height: 25px;

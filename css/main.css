@@ -13,7 +13,42 @@ body {
 
 main {
     background-color: white;
-    height: 1000px;
-    position: relative;
+    display: grid;
+    grid-template-columns: repeat(4 1fr);
+    align-items: start;
+    align-content: start;
+    grid-template-areas: 
+    "header header header header"
+    "progress progress progress subscription"
+    "popular mentors mentors mentors";
+    background-color: white;
+    padding: 20px 30px;
+    gap: 20px;
 
 }
+
+.course-progress{
+grid-area: progress;
+
+
+}
+
+.subscription {
+grid-area: subscription;
+
+
+}
+
+.popular-categories {
+grid-area: popular;
+
+
+}
+
+.top-mentors {
+grid-area: mentors;
+
+
+}
+
+
